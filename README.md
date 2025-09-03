@@ -65,8 +65,6 @@
 pip install -r requirements.txt
 
 # 安裝 FFmpeg (依作業系統而定)
-# Ubuntu/Debian: sudo apt install ffmpeg
-# macOS: brew install ffmpeg  
 # Windows: 下載並安裝 FFmpeg
 ```
 
@@ -112,7 +110,7 @@ END_POINT=你的_AZURE_LANGUAGE_ENDPOINT
 3. 取得 Channel Access Token 和 Channel Secret
 
 #### Google Gemini
-1. 前往 [Google AI Studio](https://makersuite.google.com/)
+1. 前往 [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. 建立 API 金鑰
 
 #### Microsoft Azure
