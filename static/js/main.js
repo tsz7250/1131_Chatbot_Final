@@ -19,7 +19,7 @@ function setChatMode(mode) {
             if (mode === 'GUESS_MOVIE') {
                 chatInputContainer.innerHTML = `
                     <label for="file-input" class="file-upload-label" style="border-radius: 10px 10px 10px 10px;">
-                        <img src="/static/images/attachment.png" alt="Upload">
+                        <img src="./static/images/attachment.png" alt="Upload">
                         上傳檔案
                     </label>
                     <input type="file" id="file-input" style="display: none;" onchange="uploadFile()">
@@ -41,7 +41,7 @@ function setChatMode(mode) {
             else if (mode === 'GEMINI') {
                 chatInputContainer.innerHTML = `
                     <label for="file-input" class="file-upload-label">
-                        <img src="/static/images/attachment.png" alt="Upload">
+                        <img src="./static/images/attachment.png" alt="Upload">
                     </label>
                     <input type="file" id="file-input" style="display: none;" onchange="uploadFile()">
                     <textarea style="border-radius: 0px 0px 0px 0px;" id="chat-input" placeholder="輸入訊息..." 
