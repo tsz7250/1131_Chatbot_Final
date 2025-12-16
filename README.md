@@ -2,6 +2,12 @@
 
 一個功能豐富的多模態聊天機器人，整合了電影相關的AI服務，包括智能對話、電影搜尋、圖片識別和字幕翻譯等功能。
 
+## 靜態HTML Demo(前端畫面)
+**Demo 網址**: [https://tsz7250.github.io/1131_Chatbot_Final/](https://tsz7250.github.io/1131_Chatbot_Final/)
+<img src="./pic/index.png" alt="主頁">
+<img src="./pic/translate.png" alt="字幕翻譯">
+
+
 ## ✨ 功能特色
 
 ### 🤖 四大聊天模式
